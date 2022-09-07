@@ -8,8 +8,8 @@
     padding: 0.1rem 1rem;
     
 }
-
 $color-main: #0075FF;
+$color-footer: #f4f8fe;
 .btn-main {
     @include btn-base();
     background-color: $color-main;
