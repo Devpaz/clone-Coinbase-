@@ -90,7 +90,6 @@ body {
         width: 100%;
         padding: 0 2rem 2rem 2rem;
     }
-
 }
 .sec-kpis {
     width: 100%;
@@ -110,5 +109,20 @@ body {
             color: #ffffffaa;
         }
     }
-
+}
+.sec-onboarding {
+    .intro {
+        @extend.sec-features, .intro;
+    }
+    .steps {
+        padding: 0  7rem 5rem 7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .step-separator {
+            flex: 1;
+            border-top: 1px solid #ddd;
+            margin:  0 1rem;
+        }
+    }
 }
